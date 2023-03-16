@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ノマドの宿探し</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="header-content">
+            <h1>For NOMAD</h1>
+            <nav>
+                <a href="#features">特徴</a>
+                <a href="#functions">機能</a>
+                <a href="#pricing">料金</a>
+                <a href="#contact">コンタクト</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <div class="container">
+    <div class="container main-content">
+    <div class="text-center">
+    <p class="text-center">現在の掲載件数: <span id="accommodation-count">0</span> 件</p>
+        <button id="post-listing" class="custom-btn">Post a Listing</button>
+        <button id="love-site" class="custom-btn">I Love This Site</button>
+    </div>
+        <h1 class="text-center mt-4"></h1>
+        <div class="row" id="accommodation-container">
+            <!-- 宿泊施設のカードはJavaScriptで動的に生成されます -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

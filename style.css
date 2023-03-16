@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c0d0d;   
+}
+/* Add this style to your CSS */
+.main-content {
+    margin-top: 100px;
+}
+
+header {
+    background-color: #E53A40;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #C52934;
+}
+
+
+.custom-btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E53A40;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.custom-btn:hover {
+    background-color: #C52934;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.accommodation-card {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 111px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E53A40;
+    color: #fff;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #C52934;
+    color: #fff;
+    text-decoration: none;
+}
